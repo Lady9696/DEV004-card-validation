@@ -1,0 +1,116 @@
+/* Esto primero se hace para quitar  las margenes que viene por defecto*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#bienvenida {
+    padding: 40px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 70px;
+    color: #961414;
+}
+
+body {
+    background-color: #FFCEFE;
+}
+
+/*cuando nombro a una parte de los elmentos en el html la puedo nombra aqui con el simbolo punto (.)*/
+
+.navega {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: #FDEBED;
+
+
+}
+
+.navega ul {
+    list-style: none;
+
+}
+
+.menu>li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.menu>li>a {
+    display: inline-block;
+    padding: 15px 20px;
+    font-family: 'poppins';
+    text-decoration: none;
+    color: #0c0a0e;
+    font-size: medium;
+
+}
+
+.a :hover {
+    color: #961414;
+}
+
+
+#gato {
+    display: block;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quienesomos{
+    font-family: 'poppins';
+    padding: 70px;
+    text-align: justify;
+
+}
+footer{
+    text-align: center;
+
+}
+#columnas{
+    column-count:4;
+    column-gap:10px;
+    column-rule:4px dotted gray;
+ }
+ #indicacion{
+    padding: 20px;
+    text-align:left;
+
+ }
+ #hoja{
+    width: 1000px;  
+  border:1px solid #000; 
+  background-color:#ffcefe
+
+ }
+ #headerindex{
+    background-color: #FFBABA;
+ padding: 20px;px; 
+  color: #FFBABA;  
+ }
+ .formulario{
+    padding: 50px;
+    font-family: 'poppins';
+    font-size: 10px;
+
+
+
+ }
+ #btn-validar{
+    background-color:#FFCEFE;
+    width: 50px;
+ }
+ #nombre{
+    border-style: solid;
+ }
+ #numero{
+    border-style: solid;
+ }
+ 
+ 
